@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt">
+    {% include head.html %}
+    <body class="is-loading">
+        <div id="wrapper" class="fade-in">
+            {% if page.title == "Cine Aniz" %}
+                {% include intro.html %}
+            {% endif %}
+
+            {% include header.html %}
+
+            {% include navbar.html %}
+
+            <div id="main">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>

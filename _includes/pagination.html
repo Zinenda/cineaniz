@@ -1,0 +1,19 @@
+<footer>
+    <div class="pagination">
+        {% if paginator.total_pages > 1 %}
+            {% if paginator.previous_page %}
+                <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
+            {% endif %}
+        {% endif %}
+
+        {% if paginator.page_trail %}
+            {% for trail in paginator.page_trail %}
+                <a href="{{ trail.path | prepend: site.baseurl }}" title="{{trail.title}}">{{ trail.num }}</a>
+            {% endfor %}
+        {% endif %}
+
+        {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
+        {% endif %}
+    </div>
+</footer>
