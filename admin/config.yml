@@ -20,11 +20,10 @@ collections:
       - label: "Categorias"
         name: "category"
         widget: "select"
-        options: ["Acção", "Ficção", "Terror", "Animação", "Drama", "Suspense"]
+        options: ["Acção", "Animação", "Drama", "Ficção", "Suspence", "Terror"]
       - label: "Autor"
         name: "author"
         widget: "select"
         options: ["nadeem", "zinenda"]
-      - {label: "Tag", name: "tag", widget: "string"}
       - {label: "Layout", name: "layout", default: "post", widget: "hidden"}
       - {label: "Corpo", name: "body", widget: "markdown"}
