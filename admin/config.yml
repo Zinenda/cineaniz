@@ -29,7 +29,7 @@ collections:
       - label: "Categorias"
         name: "category"
         widget: "select"
-        options: ["Acção", "Ficção", "Terror", "Animação", "Drama", "Suspence"]
+        options: ["Acção", "Ficção", "Terror", "Animação", "Drama", "Suspense"]
       - label: "Autor"
         name: "author"
         widget: "select"
