@@ -3,7 +3,7 @@
     {% include head.html %}
     <body class="is-loading">
         <div id="wrapper" class="fade-in">
-            {% if page.title == "Cine Aniz" %}
+            {% if page.layout == "page" %}
                 {% include intro.html %}
             {% endif %}
 
@@ -14,6 +14,10 @@
             <div id="main">
                 {{ content }}
             </div>
+
+            {% include footer.html %}
+
+            {% include scripts.html %}
         </div>
     </body>
 </html>

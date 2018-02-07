@@ -1,4 +1,4 @@
-{% post in site.posts limit: 1 %}
+{% for post in site.posts limit: 1 %}
     <article class="post featured">
         <header class="major">
             <span class="date">{{ post.date }}</span>
