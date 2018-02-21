@@ -1,13 +1,16 @@
 {% for post in site.posts limit: 1 %}
     <article class="post featured">
         <header class="major">
-            <span class="date">{{ post.date }}</span>
-            <h2><a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
-            <p>{{ post.content | truncatewords: 50 }}</p>
+            <span class="date">{{ post.date | date_to_string }}</span>
+            <h2><a href="{{ post.url }}" title="{{ post.title }}">Estreia da Semana</a></h2>
         </header>
-        <a href="{{ post.url }}" class="image main"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+
+        <div class="image main">
+            <iframe src="{{ post.trailer }}" frameborder="0"></iframe>
+        </div>
+
         <ul class="actions">
-            <li><a href="{{ post.url }}" class="button big">Leia Mais</a></li>
+            <li><a href="{{ post.url }}" class="button big">Leia a Sinopse</a></li>
         </ul>
     </article>
 {% endfor %}
