@@ -2,9 +2,9 @@
 title: 'Maze Runner: A Cura Mortal'
 date: 2018-02-07T16:50:29.593Z
 image: /assets/img/uploads/deathcure.jpg
+trailer: 'https://youtu.be/mqUnRDKkRWI'
 category: Acção
-author: zinenda
-tag: Maze Runner
+author: Zinenda
 layout: post
 ---
 Maze Runner: A Cura Mortal é o capitulo da trilogia Maze Runner, que tem como protagonista principal Dylan O'Brian.
