@@ -2,7 +2,7 @@
 title: 'Maze Runner: A Cura Mortal'
 date: 2018-02-07T16:50:29.593Z
 image: /assets/img/uploads/deathcure.jpg
-trailer: 'https://youtu.be/mqUnRDKkRWI'
+trailer: 'mqUnRDKkRWI'
 category: Acção
 author: Zinenda
 layout: post
